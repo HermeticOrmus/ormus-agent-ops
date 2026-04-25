@@ -1,0 +1,31 @@
+{
+  "name": "ormus-agent-ops",
+  "version": "1.0.0",
+  "description": "Operator's playbook for autonomous coding agents — status, triage, ops, inspect, sweep, clean, evolve. 7 composable Claude Code skills.",
+  "author": "Diego Bodart / Ormus.Solutions",
+  "license": "MIT",
+  "homepage": "https://github.com/HermeticOrmus/ormus-agent-ops",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HermeticOrmus/ormus-agent-ops.git"
+  },
+  "keywords": [
+    "claude-code",
+    "claude",
+    "anthropic",
+    "ai-agents",
+    "skills",
+    "agent-ops",
+    "autonomous-agents",
+    "ormus"
+  ],
+  "skills": [
+    { "name": "agent-status", "path": "skills/agent-status/SKILL.md" },
+    { "name": "agent-triage", "path": "skills/agent-triage/SKILL.md" },
+    { "name": "agent-ops", "path": "skills/agent-ops/SKILL.md" },
+    { "name": "agent-inspect", "path": "skills/agent-inspect/SKILL.md" },
+    { "name": "agent-sweep-orphans", "path": "skills/agent-sweep-orphans/SKILL.md" },
+    { "name": "agent-clean", "path": "skills/agent-clean/SKILL.md" },
+    { "name": "agent-evolve", "path": "skills/agent-evolve/SKILL.md" }
+  ]
+}
