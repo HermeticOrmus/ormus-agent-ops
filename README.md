@@ -110,3 +110,17 @@ MIT. See [LICENSE](LICENSE).
 Distilled from real production operation of an autonomous coding agent over several months. Every skill maps to a recurring operational pattern that emerged from running the same actions hundreds of times. The classification taxonomy in `/agent-triage` and the orphan classes in `/agent-sweep-orphans` are empirical — those buckets covered every real-world case across many months of failures and orphans, no theoretical cases added.
 
 The skills are deliberately **decoupled from any specific agent product**. They define the operator playbook in terms of a generic task-queue API. Use them with any agent — fork an existing autonomous coder, wire up the API endpoints described above, and these skills work.
+
+---
+
+## Part of the Libre Open-Source Stack for Claude Code
+
+This repository is part of a growing family of open-source toolkits for Claude Code, each focused on a specific lane:
+
+- [LibreUIUX-Claude-Code](https://github.com/HermeticOrmus/LibreUIUX-Claude-Code) — UI/UX system (152 agents, 70 plugins, 76 commands, 74 skills)
+- [LibreGEO-Claude-Code](https://github.com/HermeticOrmus/LibreGEO-Claude-Code) — AI-search optimization for ChatGPT, Perplexity, Gemini, Google AI Overviews
+- [LibreEmbed-Claude-Code](https://github.com/HermeticOrmus/LibreEmbed-Claude-Code) — Embedded systems, firmware, and IoT development
+- [LibreGameDev-Claude-Code](https://github.com/HermeticOrmus/LibreGameDev-Claude-Code) — Game development across Godot, Unity, Unreal
+- [LibreFinTech-Claude-Code](https://github.com/HermeticOrmus/LibreFinTech-Claude-Code) — Financial technology development
+
+Star the family, not just one — that's how the suite stays coherent.
