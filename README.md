@@ -1,6 +1,23 @@
-# ormus-agent-ops
+<p align="center">
+  <img src="https://ormus.solutions/mascot/chain_braces_to_swan.gif" alt="ormus-agent-ops" width="128" style="image-rendering: pixelated;" />
+</p>
 
-> Operator's playbook for running autonomous coding agents. 7 Claude Code skills bundled as a marketplace plugin: **status**, **triage**, **ops**, **inspect**, **sweep-orphans**, **clean**, **evolve**.
+<h1 align="center">ormus-agent-ops</h1>
+
+<p align="center">
+  <em>Operator's playbook for autonomous coding agents. 7 Claude Code skills: status, triage, ops, inspect, sweep, clean, evolve.</em>
+</p>
+
+<p align="center">
+  <a href="https://github.com/HermeticOrmus/ormus-agent-ops/stargazers"><img src="https://img.shields.io/github/stars/HermeticOrmus/ormus-agent-ops?style=flat-square&color=aa8142" alt="Stars" /></a>
+  <a href="https://github.com/HermeticOrmus/ormus-agent-ops/blob/main/LICENSE"><img src="https://img.shields.io/github/license/HermeticOrmus/ormus-agent-ops?style=flat-square&color=aa8142" alt="License" /></a>
+  <a href="https://github.com/HermeticOrmus/ormus-agent-ops/commits"><img src="https://img.shields.io/github/last-commit/HermeticOrmus/ormus-agent-ops?style=flat-square&color=aa8142" alt="Last Commit" /></a>
+  <img src="https://img.shields.io/badge/Claude_Code-aa8142?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code" />
+</p>
+
+---
+
+> **Operator's playbook for running autonomous coding agents. 7 Claude Code skills bundled as a marketplace plugin: **status**, **triage**, **ops**, **inspect**, **sweep-orphans**, **clean**, **evolve**.**
 
 If you run an autonomous coding agent — one that takes tasks from a queue, runs them in workers, commits to branches, and reports back — you need an operator's toolbox. This is mine, generalized.
 
